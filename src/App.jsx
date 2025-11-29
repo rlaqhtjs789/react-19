@@ -1,13 +1,14 @@
 import './App.css'
 import Use from "./components/use/Use.jsx";
-import Action from './components/useActionState/Action.jsx';
-
+import Action from "./components/action/Action.jsx";
+import UseActionState from "./components/useActionState/UseActionState.jsx";
 
 function App() {
   return (
     <div className="app">
       {/* <Use /> */}
-      <Action />
+      {/* <Action /> */}
+      <UseActionState />
     </div>
   );
 }
